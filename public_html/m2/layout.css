@@ -1,0 +1,182 @@
+/*		Style.css	*/
+html
+{
+	font-family: sans-serif;
+}
+
+body	
+{
+	background-image:url('');
+
+}
+div 
+{
+	display:block;
+}
+
+@media only screen and (min-width: 1024px)
+{
+
+.header
+{
+	background-color: black;
+	height:120px;
+		position:relative;
+	padding-bottom:10px;
+}
+.row
+{
+	background-color:green;
+	height:400px;
+	top:5px;
+	position:relative;
+	
+	-top:10px;
+}
+.firstcolumn
+{
+	height:100%;
+	width:17%;
+	display:inline-block;
+	background-color:blue;
+	float:left;
+}
+.secondcolumn
+{
+	margin-left:5px;
+	height:100%;
+	width:65%;
+	float:left;
+	left:100px;
+	display:inline-block;
+	background-color:purple;
+}
+.thirdcolumn
+{
+ margin-left:5px;
+	height:100%;
+	width:17%;
+	float:right;
+	display:inline-block;
+	background-color:pink;	
+}
+.footer
+{
+	background-color:red;
+	height:40px;
+	top:10px;
+	position:relative;
+}
+}
+
+@media only screen and (min-width: 480px)
+					and (max-width: 1024px)
+{
+
+.header
+{
+	background-color: black;
+	height:120px;
+		position:relative;
+	padding-bottom:10px;
+}
+.row
+{
+	background-color:green;
+	height:400px;
+	top:5px;
+	position:relative;
+	
+	-top:10px;
+}
+.firstcolumn
+{
+	height:100%;
+	width:17%;
+	display:inline-block;
+	background-color:blue;
+	float:left;
+}
+.secondcolumn
+{
+	margin-left:5px;
+	height:100%;
+	margin-right:5px;
+	width:81%;
+	float:left;
+	left:100px;
+	display:inline-block;
+	background-color:purple;
+}
+.thirdcolumn
+{
+ margin-left:5px;
+	height:100%;
+	width:0px;
+	float:right;
+	display:inline-block;
+	background-color:pink;	
+}
+.footer
+{
+	background-color:red;
+	height:40px;
+	top:10px;
+	position:relative;
+}
+}
+
+@media only screen and (max-width: 550px)
+{
+
+.header
+{
+	background-color: black;
+	height:120px;
+		position:relative;
+	padding-bottom:10px;
+}
+.row
+{
+	background-color:green;
+	height:400px;
+	top:5px;
+	position:relative;
+	
+	-top:10px;
+}
+.firstcolumn
+{
+	height:100%;
+	width:0px;
+	display:inline-block;
+	background-color:blue;
+	float:left;
+}
+.secondcolumn
+{
+	margin-left:5px;
+	height:100%;
+	width:98%;
+	float:left;
+	left:100px;
+	display:inline-block;
+	background-color:purple;
+}
+.thirdcolumn
+{
+ margin-left:5px;
+	height:100%;
+	width:0px;
+	float:right;
+	display:inline-block;
+	background-color:pink;	
+}
+.footer
+{
+	background-color:red;
+	height:40px;
+	top:10px;
+	position:relative;
+}
+}

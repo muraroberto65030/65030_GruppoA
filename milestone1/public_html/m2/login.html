@@ -11,20 +11,37 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Roberto Mura (65030)">
         <meta name="keywords" content="Negozio online">
+            <link rel="stylesheet" type="text/css" href="style.css" media="screen">
     </head>
-    <body>
+   <body>
+		<div class="header">
         <h1>Login del negozio online</h1>
         <p>
             Da questa pagina potrai accedere con i tuoi dati
-        </p>
+        </p></div>
+       <div class="row">
+		<div class="firstcolumn">
+                   &nbsp;
+                        
+                </div>
+		
+		
+		<div class="secondcolumn">
         <form method="POST" action="#">
-            Inserisci il nome utente<input type="text" name="username"><br>
-            Inserisci la password<input type="password" name="password"><br>
+            <label for="username">Inserisci il nome utente</label><input type="text" id="username" name="username"><br>
+            <label for="password">Inserisci la password</label><input type="password" id="password" name="password"><br>
             <input type="submit" value="Accedi">
         </form>
-        <p>
-            Altre pagine disponibili:<br>
-            <a href="descrizione.html">Descrizione</a>|<a href="cliente.html">Cliente</a>|<a href="venditore.html">Venditore</a>
-        </p>
+                      </div>
+                    <div class="thirdcolumn">
+                        &nbsp;
+                    </div>
+		</div><div style="clear:both;"></div>
+		<div class="footer">
+                <p>
+                    Altre pagine disponibili:<br>
+                    <a href="descrizione.html">Descrizione</a>|<a href="cliente.html">Cliente</a>|<a href="venditore.html">Venditore</a>
+                </p>
+                </div>
     </body>
 </html>

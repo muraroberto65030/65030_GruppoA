@@ -7,39 +7,186 @@ and open the template in the editor.
     Created on : 30-mar-2016, 17.01.13
     Author     : Mura Roberto matr. 65030
 */
-
-.page{
-    width:100%;
-    height:100%;
+/*		Style.css	*/
+html
+{
+	font-family: sans-serif;
 }
-.sidebar1{
 
-    display:inline-block;
-    width:50px;
-    height:100%;
+body	
+{
+	background-color:lightgray;
+	color:blue;
+	font-family:sans-serif;
 }
-.maincontent{
-  
-    display: inline-block;
+h1 {
+	color:Green;
+}
+h2 {
+	color:lime;
+}
+h3 {
+	color:darkgreen;
+}
+a {
+    font-style:oblique;
+    font-weight: bold;
+}
+div 
+{
+	display:block;
+}
+th {
+     background-color:darkslategrey;
+     color:white;
+     padding-top:10px;
+     font-stretch: expanded;
+}
+.alternative {
+    background-color:darkgray;
+}
+td {
+    padding:25px;
+    text-align: center;
+}
+.header
+{
+	
+	height:120px;
+		position:relative;
+	padding-top:10px;
+        text-align:Center;
+        border-bottom:1px solid black;
+}
+.row
+{
+	
+	height:100%;
+	top:5px;
+	position:relative;
+	
+	-top:10px;
+}
+.footer
+{	
+	height:40px;
+	top:10px;
+	position:relative;
+          text-align:center;
+          border-top:1px solid black;
+}
+form {
+    text-align:left;
+    padding-left:50px;
+}
+input[type="text"]{
+	margin-right:15px;
+	
+}
+label {
     width:200px;
-    height:100%;
+	float:left;
 }
-.header{
+@media only screen and (min-width: 1024px)
+{
 
-    display: block;
-    height:200px;
-    width:100%;
+
+.firstcolumn
+{
+	height:100%;
+	width:17%;
+	display:inline-block;
+ 
+	float:left;
 }
-.centrale{
-    display:block;
-    width:400px;
+.secondcolumn
+{
+	margin-left:5px;
+	height:100%;
+	width:65%;
+	float:left;
+	left:100px;
+	display:inline-block;
+	border-right:1px solid black;
+        border-left:1px solid black;
 }
-.footer{
-    display:block;
+.thirdcolumn
+{
+ margin-left:5px;
+	height:100%;
+	width:17%;
+	float:right;
+	display:inline-block;
+	
 }
-.sidebar2{
-   
-    display:inline-block;
-    width:50px;
-    height:100%;
+
+}
+
+@media only screen and (min-width: 480px)
+					and (max-width: 1024px)
+{
+
+.firstcolumn
+{
+	height:100%;
+	width:17%;
+	display:inline-block;
+	
+	float:left;
+}
+.secondcolumn
+{
+	margin-left:5px;
+	height:100%;
+	margin-right:5px;
+	width:81%;
+	float:left;
+	left:100px;
+	display:inline-block;
+       border-left:1px solid black;
+	
+}
+.thirdcolumn
+{
+ margin-left:5px;
+	height:100%;
+	width:0px;
+	float:right;
+	display:inline-block;
+	
+}
+
+}
+
+@media only screen and (max-width: 550px)
+{
+
+.firstcolumn
+{
+	height:100%;
+	width:0px;
+	display:inline-block;
+	
+	float:left;
+}
+.secondcolumn
+{
+	margin-left:5px;
+	height:100%;
+	width:98%;
+	float:left;
+	left:100px;
+	display:inline-block;
+	
+}
+.thirdcolumn
+{
+ margin-left:5px;
+	height:100%;
+	width:0px;
+	float:right;
+	display:inline-block;
+	
+}
+
 }

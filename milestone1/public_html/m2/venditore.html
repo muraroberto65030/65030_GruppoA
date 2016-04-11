@@ -10,26 +10,38 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Roberto Mura (65030)">
-        <meta name="keywords" content="Negozio online">
+         <link rel="stylesheet" type="text/css" href="style.css" media="screen">
     </head>
-    <body>
+   <body>
+		<div class="header">
         <h1>Venditore</h1>
         <p>
             Da questa pagina avrai a disposizione i comandi da venditore
-        </p>
+        </p></div> <div class="row">
+		<div class="firstcolumn">
+                   &nbsp;
+                        
+                </div>
+		
+		
+		<div class="secondcolumn">
         <form method="POST" action="#">
-            Nome dell'oggetto;<input type="text" name="oggetto"><br>
-            URL immagine<input type="text" name="immagine"><br>
-            Descrizione <input type="text" name="decrizione"><br>
-            Prezzo <input type="text" name="prezzo"><br>
-            Quantità <input type="text" name="quantita"><br>
+            <label for="oggetto">Nome dell'oggetto</label><input type="text" id="oggetto" name="oggetto"><br>
+            <label for="immagine">URL immagine</label><input id="immagine" type="text" name="immagine"><br>
+            <label for="descrizione">Descrizione</label><input id="descrizione" type="text" name="decrizione"><br>
+            <label for="prezzo">Prezzo</label><input id="prezzo" type="text" name="prezzo"><br>
+            <label for="quantita">Quantità</label><input id="quantita" type="text" name="quantita"><br>
             <input type="submit" value="Aggiungi">
         </form>
-
-        
+                </div>
+        <div class="thirdcolumn">
+                        &nbsp;
+                    </div>
+		</div><div style="clear:both;"></div>
+		<div class="footer">
         <p>
             Altre pagine disponibili:<br>
             <a href="descrizione.html">Descrizione</a>|<a href="login.html">Login</a>
-        </p>
+        </p></div>
     </body>
 </html>
